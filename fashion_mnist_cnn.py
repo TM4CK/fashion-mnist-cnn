@@ -14,7 +14,7 @@ Original file is located at
 # BY: A.Crawford, J.Dixon, L.Claton, and T.Mack
 
 # 1. Import Libraries
-import
+import numpy as np
 import tensorflow as tf
 from tensorflow.keras import layers, models
 import matplotlib.pyplot as plt
@@ -90,7 +90,6 @@ image = test_images[index]
 label = test_labels[index]
 
 # Predict
-import numpy as np
 prediction = model.predict(np.expand_dims(image, axis=0))
 predicted_label = np.argmax(prediction)
 
