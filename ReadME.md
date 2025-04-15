@@ -11,7 +11,7 @@ The model was trained on 60,000 labeled images and tested on 10,000 unseen image
 
 ## Tech Stack
 
-- Python
+- Python3
 - TensorFlow / Keras
 - Matplotlib (for visualizations)
 - Google Colab / Jupyter
@@ -29,8 +29,8 @@ The model was trained on 60,000 labeled images and tested on 10,000 unseen image
 
 To run locally:
 
-```bash
-pip install -r requirements.txt
+```bash 
+pip3 install -r requirements.txt
 python3 fashion-mnist-cnn.py
 
 or...
